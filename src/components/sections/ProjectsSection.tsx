@@ -15,7 +15,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({}) => {
   const [projects] = useState<ProjectModel[]>([
     new ProjectModel({
       id: 0,
-      date: "February 2024 - Present",
+      date: "February 2024 - December 2024",
       description: (
         <>
           My capstone project, a note-taking app that incorporates AI to suggest
@@ -23,14 +23,13 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({}) => {
           progress analytics to help them see what they need to improve.
         </>
       ),
-      imageAlt: "Image of umaru-chan",
-      imageFileName: "under_construction_umaru.webp",
-      isUnderDevelopment: true,
+      imageAlt: "Hero image of U Do Note",
+      imageFileName: "udonote.svg",
+      isUnderDevelopment: false,
+      projectUrl: "https://play.google.com/apps/testing/com.cvsu_b.u_do_note",
       projectGithubLink: "https://github.com/Jiseeeh/u-do-note",
-      projectTags: [],
+      projectTags: ["Flutter", "Firebase", "OpenAI API"],
       title: "u do note",
-      source:
-        "https://thestickyseat.tumblr.com/post/130082806054/himouto-umaru-chan-review-a-literal-moeblob",
     }),
     new ProjectModel({
       id: 1,
@@ -49,6 +48,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({}) => {
       imageAlt: "Image of our platformer game",
       imageFileName: "yapg.webp",
       isUnderDevelopment: false,
+      projectUrl: "https://github.com/Jiseeeh/yapg/releases/tag/v1.0.0",
       projectGithubLink: "https://github.com/Jiseeeh/yapg",
       projectTags: ["Godot", "GDScript"],
       title: "YAPG",
