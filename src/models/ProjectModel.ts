@@ -5,6 +5,7 @@ export class ProjectModel {
   imageAlt: string;
   imageFileName: string;
   isUnderDevelopment: boolean;
+  projectUrl?: string;
   projectGithubLink: string;
   projectTags: string[];
   title: string;
@@ -17,6 +18,7 @@ export class ProjectModel {
     imageAlt,
     imageFileName,
     isUnderDevelopment,
+    projectUrl,
     projectGithubLink,
     projectTags,
     title,
@@ -28,6 +30,7 @@ export class ProjectModel {
     this.imageAlt = imageAlt;
     this.imageFileName = imageFileName;
     this.isUnderDevelopment = isUnderDevelopment;
+    this.projectUrl = projectUrl;
     this.projectGithubLink = projectGithubLink;
     this.projectTags = projectTags;
     this.title = title;

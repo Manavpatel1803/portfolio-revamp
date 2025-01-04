@@ -13,6 +13,7 @@ const Project: React.FC<ProjectModel> = ({
   imageAlt,
   imageFileName,
   isUnderDevelopment,
+  projectUrl,
   projectGithubLink,
   projectTags,
   title,
@@ -28,17 +29,21 @@ const Project: React.FC<ProjectModel> = ({
           <p className="text-xl lg:text-2xl">{description}</p>
           <p className="font-black uppercase">{date}</p>
           <div className="group relative self-start w-full">
-            <Image
-              className={`object-cover w-full max-h-72 xl:max-h-[25rem] rounded-sm ${
-                source &&
-                "group-hover:brightness-50 transition-all duration-500"
-              }`}
-              src={`/images/${imageFileName}`}
-              quality={100}
-              width={1200}
-              height={520}
-              alt={imageAlt}
-            />
+            <a href={projectUrl} target="_">
+              <Image
+                className={`object-cover w-full max-h-72 xl:max-h-[25rem] rounded-sm ${
+                  projectUrl && "cursor-pointer"
+                } ${
+                  source &&
+                  "group-hover:brightness-50 transition-all duration-500"
+                }`}
+                src={`/images/${imageFileName}`}
+                quality={100}
+                width={1200}
+                height={520}
+                alt={imageAlt}
+              />
+            </a>
             {source && (
               <div className="absolute top-0 right-0 p-2 opacity-0 font-black group-hover:opacity-100 transition duration-300 ease-in-out">
                 <span className="link">
