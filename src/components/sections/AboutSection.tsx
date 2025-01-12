@@ -76,7 +76,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({}) => {
         </p>
         <button className="flex px-4 py-3 font-bold text-xl bg-teal transition-colors duration-200 hover:bg-[#009199] self-start gap-3 rounded-md items-center">
           <a
-            href="/CAMARA-JOHN_CARLO-N-RESUME-2024.pdf"
+            href="/CAMARA-JOHN_CARLO-N-RESUME-2025.pdf"
             target="_"
             onClick={() => {
               posthog.capture("Viewed Resume");
