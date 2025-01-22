@@ -26,7 +26,8 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({}) => {
       imageAlt: "Hero image of U Do Note",
       imageFileName: "udonote.svg",
       isUnderDevelopment: false,
-      projectUrl: "https://forms.gle/na5F4vbni8aC8r6J6",
+      projectUrl:
+        "https://play.google.com/store/apps/details?id=com.cvsu_b.u_do_note&pcampaignid=web_share",
       projectGithubLink: "https://github.com/Jiseeeh/u-do-note",
       projectTags: ["Flutter", "Firebase", "OpenAI API"],
       title: "u do note",
