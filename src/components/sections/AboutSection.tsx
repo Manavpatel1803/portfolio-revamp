@@ -29,7 +29,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({}) => {
           className="size-50 rounded-full lg:hidden"
           priority
           src="/images/me_bnw.webp"
-          alt="Black and White image of John Carlo N. Camara"
+          alt="Black and White image of Manav Patel"
           width={200}
           height={200}
         />
@@ -38,7 +38,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({}) => {
             className="hidden h-full w-full lg:block"
             priority
             src="/images/me_no_bg.webp"
-            alt="Image of John Carlo N. Camara wearing his uniform"
+            alt="Image of Manav Patel wearing his uniform"
             width={200}
             height={200}
             quality={100}

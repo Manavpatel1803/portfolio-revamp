@@ -33,7 +33,7 @@ export default function Home() {
         <div className="flex flex-col space-y-5 justify-center items-center min-h-screen">
           <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-8 border-black"></div>
           <span className="font-bold uppercase animate-bounce">
-            Summoning the tech spirits...
+            Summoning the tech spirits and wizards woohoo...
           </span>
         </div>
       </div>

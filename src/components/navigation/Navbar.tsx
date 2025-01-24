@@ -136,13 +136,13 @@ const Navbar: React.FC<NavbarProps> = ({}) => {
         !isAtTop ? "shadow-md xl:shadow-none bg-[#e6e8f0]" : ""
       }`}
     >
-      <h1 className="font-black text-3xl">jiseeeh.</h1>
+      <h1 className="font-black text-3xl">Manav Patel.</h1>
       <aside
         className={`p-4 fixed inset-0 bg-light-black text-white h-full w-8/12 transition-transform duration-500 md:hidden ${
           isSidebarOpen ? "translate-x-0 " : "-translate-x-full"
         }`}
       >
-        <h2 className="font-black text-3xl">jiseeeh.</h2>
+        <h2 className="font-black text-3xl">Manav Patel.</h2>
         <ul className="p-4 space-y-5">
           {links.map((el) => (
             <li

@@ -13,26 +13,26 @@ const PostHogView = dynamic(() => import("./post-hog-view"), {
 
 export const metadata: Metadata = {
   generator: "Next.js",
-  title: "John Carlo Camara",
+  title: "Manav Patel",
   description:
-    "Welcome to John Carlo Camara's personal website. Discover my web development projects, skills, and experience in web development.",
-  applicationName: "John Carlo Camara's Portfolio",
+    "Welcome to Manav Patel's personal website. Discover my web development projects, skills, and experience in web development.",
+  applicationName: "Manav Patel's Portfolio",
   keywords: [
-    "John Carlo Camara",
-    "Jiseeeh",
-    "Jiseeeh Portfolio",
-    "Jiseeeh's Portfolio",
+    "Manav Patel",
+    "Manav",
+    "Manav Portfolio",
+    "Manav's Portfolio",
   ],
-  authors: [{ name: "John Carlo Camara" }, { name: "Jiseeeh" }],
-  creator: "Jiseeeh",
+  authors: [{ name: "Manav Patel" }, { name: "Manav" }],
+  creator: "Manav",
   openGraph: {
-    title: "Jiseeeh",
+    title: "Manav",
     description:
-      "Explore Jiseeeh's personal website showcasing projects, skills, and experience in web development.",
-    url: "https://jiseeeh.codes",
+      "Explore Manav's personal website showcasing projects, skills, and experience in web development.",
+    url: "https://manavpatel.codes",
     type: "website",
-    siteName: "John Carlo Camara",
-    locale: "en_US",
+    siteName: "Manav Patel",
+    locale: "en_UK",
     images: [
       {
         url: "https://jiseeeh.codes/og.png",
