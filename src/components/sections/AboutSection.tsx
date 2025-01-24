@@ -23,7 +23,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({}) => {
       >
         <div className="flex flex-col items-center space-y-5">
           <h3 className="text-2xl lg:text-4xl">What&apos;s up?</h3>
-          <p className="text-5xl text-center">I&apos;m John Carlo N. Camara</p>
+          <p className="text-5xl text-center">I&apos;m Manav Patel</p>
         </div>
         <Image
           className="size-50 rounded-full lg:hidden"
@@ -52,7 +52,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({}) => {
                 target="_"
                 className="link"
               >
-                Maki
+                ofc Me
               </a>
             </span>
           </div>
@@ -61,18 +61,11 @@ const AboutSection: React.FC<AboutSectionProps> = ({}) => {
       <section className="flex flex-col p-4 space-y-4 lg:w-11/12 lg:justify-center handle-max-w">
         <h4 className="text-xl font-black lg:text-4xl">About me</h4>
         <p className="lg:text-xl">
-          I go by the name <span className="text-teal font-bold">Jiseeeh</span>{" "}
-          on the internet. I am currently a 4th year student taking BSIT in the
-          Philippines.
+          I go by the name <span className="text-teal font-bold">Manav</span>{" "}
+          on the internet. I am recently graduated from University of East London by completing my undergrad degree in computer science and engineering.
         </p>
         <p className="lg:text-xl">
-          My interest in tech began when I saw my cousin, who is now a software
-          engineer, do seemingly magical things with computers. However, it
-          wasn&apos;t until 2021, when I saw a friend&apos;s website about our
-          country, that I really started to dive into self-learning and explore
-          the endless possibilities that technology has to offer. I am excited
-          to continue growing my knowledge and skills in the tech industry, and
-          I hope to one day make a positive impact through my work.
+          My interest in technology began when I saw my cousin, now a software engineer, perform seemingly magical tasks with computers. However, it wasn't until 2021, when I applied to study abroad, that I truly started diving into self-learning and exploring the endless possibilities technology offers. Being in a new environment inspired me to deepen my understanding of tech and its transformative potential. I am eager to continue expanding my knowledge and skills in the industry, with the hope of making a meaningful impact through my work one day.
         </p>
         <button className="flex px-4 py-3 font-bold text-xl bg-teal transition-colors duration-200 hover:bg-[#009199] self-start gap-3 rounded-md items-center">
           <a
